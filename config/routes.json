@@ -1,0 +1,112 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/notificationtokens",
+      "handler": "Notificationtoken.find",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/notificationtokens/count",
+      "handler": "Notificationtoken.count",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/notificationtokens/:_id",
+      "handler": "Notificationtoken.findOne",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/notificationtokens",
+      "handler": "Notificationtoken.create",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/notificationtokens/:_id",
+      "handler": "Notificationtoken.update",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/notificationtokens/:_id",
+      "handler": "Notificationtoken.delete",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/notifications",
+      "handler": "Notification.find",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/notifications/count",
+      "handler": "Notification.count",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/notifications/:_id",
+      "handler": "Notification.findOne",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/notifications",
+      "handler": "Notification.create",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/notifications/:_id",
+      "handler": "Notification.update",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/notifications/:_id",
+      "handler": "Notification.delete",
+      "config": {
+        "policies": [],
+        "prefix": false
+      }
+    }
+  ]
+}

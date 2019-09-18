@@ -1,0 +1,59 @@
+{
+  "connection": "default",
+  "collectionName": "notification",
+  "info": {
+    "name": "notification",
+    "description": "Notificações ( PUSH )"
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "title": {
+      "configurable": false,
+      "type": "string"
+    },
+    "subtitle": {
+      "configurable": false,
+      "type": "string"
+    },
+    "body": {
+      "configurable": false,
+      "type": "text"
+    },
+    "priority": {
+      "configurable": false,
+      "required": true,
+      "enum": [
+        "default",
+        "normal",
+        "high"
+      ],
+      "default": "normal",
+      "type": "enumeration"
+    },
+    "sendDate": {
+      "configurable": false,
+      "required": true,
+      "type": "date"
+    },
+    "pending": {
+      "configurable": false,
+      "type": "boolean",
+      "default": true
+    },
+    "users": {
+      "configurable": false,
+      "collection": "user",
+      "via": "notifications",
+      "dominant": true,
+      "plugin": "users-permissions"
+    },
+    "data": {
+      "type": "json"
+    }
+  }
+}

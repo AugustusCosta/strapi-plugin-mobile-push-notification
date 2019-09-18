@@ -1,0 +1,37 @@
+{
+  "connection": "default",
+  "collectionName": "notificationtoken",
+  "info": {
+    "name": "notificationtoken",
+    "description": "Token de notificação dos devices"
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "token": {
+      "unique": true,
+      "required": true,
+      "configurable": false,
+      "type": "string"
+    },
+    "os": {
+      "required": true,
+      "configurable": false,
+      "enum": [
+        "IOS",
+        "ANDROID"
+      ],
+      "type": "enumeration"
+    },
+    "user": {
+      "model": "user",
+      "via": "notificationtokens",
+      "plugin": "users-permissions",
+      "configurable": false
+    }
+  }
+}
