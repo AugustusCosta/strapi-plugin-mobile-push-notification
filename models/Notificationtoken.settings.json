@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "notificationtoken",
+  "collectionName": "",
   "info": {
     "name": "notificationtoken",
     "description": "Token de notificação dos devices"

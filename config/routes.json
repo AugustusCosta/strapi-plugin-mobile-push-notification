@@ -6,7 +6,13 @@
       "handler": "Notificationtoken.find",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Retrieve all notificationtokens documents",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notificationtoken",
+          "actionType": "find"
+        }
       }
     },
     {
@@ -15,7 +21,12 @@
       "handler": "Notificationtoken.count",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Count all notificationtokens documents",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notificationtoken"
+        }
       }
     },
     {
@@ -24,7 +35,13 @@
       "handler": "Notificationtoken.findOne",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Retrieve a single notificationtoken depending on his id",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notificationtoken",
+          "actionType": "findOne"
+        }
       }
     },
     {
@@ -33,7 +50,13 @@
       "handler": "Notificationtoken.create",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Create a notificationtoken",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notificationtoken",
+          "actionType": "create"
+        }
       }
     },
     {
@@ -42,16 +65,28 @@
       "handler": "Notificationtoken.update",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Update an existing notificationtoken",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notificationtoken",
+          "actionType": "update"
+        }
       }
     },
     {
       "method": "DELETE",
       "path": "/notificationtokens/:_id",
-      "handler": "Notificationtoken.delete",
+      "handler": "Notificationtoken.destroy",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Delete an existing notificationtoken",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notificationtoken",
+          "actionType": "destroy"
+        }
       }
     },
     {
@@ -60,7 +95,13 @@
       "handler": "Notification.find",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Retrieve all notifications documents",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notification",
+          "actionType": "find"
+        }
       }
     },
     {
@@ -69,7 +110,12 @@
       "handler": "Notification.count",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Count all notifications documents",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notification"
+        }
       }
     },
     {
@@ -78,7 +124,13 @@
       "handler": "Notification.findOne",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Retrieve a single notification depending on his id",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notification",
+          "actionType": "findOne"
+        }
       }
     },
     {
@@ -87,7 +139,13 @@
       "handler": "Notification.create",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Create a notification",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notification",
+          "actionType": "create"
+        }
       }
     },
     {
@@ -96,16 +154,28 @@
       "handler": "Notification.update",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Update an existing notification",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notification",
+          "actionType": "update"
+        }
       }
     },
     {
       "method": "DELETE",
       "path": "/notifications/:_id",
-      "handler": "Notification.delete",
+      "handler": "Notification.destroy",
       "config": {
         "policies": [],
-        "prefix": false
+        "prefix": false,
+        "description": "Delete an existing notification",
+        "tag": {
+          "plugin": "mobile-push-notification",
+          "name": "Notification",
+          "actionType": "destroy"
+        }
       }
     }
   ]

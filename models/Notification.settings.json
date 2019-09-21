@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "notification",
+  "collectionName": "",
   "info": {
     "name": "notification",
     "description": "Notificações ( PUSH )"
@@ -53,7 +53,8 @@
       "plugin": "users-permissions"
     },
     "data": {
-      "type": "json"
+      "type": "json",
+      "configurable": false
     }
   }
 }
