@@ -1,9 +1,9 @@
 {
   "name": "strapi-plugin-mobile-push-notification",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Strapi plugin for mobile push notifications",
   "strapi": {
-    "name": "strapi-plugin-mobile-push-notification",
+    "name": "Mobile Push Notification",
     "icon": "plug",
     "description": "Strapi plugin for mobile push notifications"
   },
@@ -26,7 +26,7 @@
     "moment": "^2.24.0",
     "expo-server-sdk": "^3.3.0",
     "lodash": "^4.17.5",
-    "strapi-utils": "3.0.0-alpha.26.2"
+    "strapi-utils": "^3.0.0-beta.16.4"
   },
   "devDependencies": {
     "strapi-helper-plugin": "^3.0.0-beta.16.4"
@@ -35,6 +35,9 @@
     "name": "Augustus Costa",
     "email": "augustuscosta@gmail.com",
     "url": "https://github.com/AugustusCosta/strapi-plugin-mobile-push-notification"
+  },
+  "bugs": {
+    "url": "https://github.com/AugustusCosta/strapi-plugin-mobile-push-notification/issues"
   },
   "maintainers": [
     {
