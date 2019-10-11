@@ -30,8 +30,7 @@
     "user": {
       "model": "user",
       "via": "notificationtokens",
-      "plugin": "users-permissions",
-      "configurable": false
+      "plugin": "users-permissions"
     }
   }
 }
