@@ -1,11 +1,11 @@
 {
-  "name": "strapi-plugin-gmaps-api-services",
+  "name": "strapi-plugin-mobile-push-notification",
   "version": "0.0.0",
-  "description": "Strapi plugin for use Google Maps API services.",
+  "description": "Strapi plugin for mobile push notifications",
   "strapi": {
-    "name": "strapi-plugin-gmaps-api-services",
+    "name": "strapi-plugin-mobile-push-notification",
     "icon": "plug",
-    "description": "Strapi plugin for use Google Maps API services."
+    "description": "Strapi plugin for mobile push notifications"
   },
   "scripts": {
     "analyze:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf stats.json",
@@ -23,7 +23,10 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@google/maps": "^0.5.5"
+    "moment": "^2.24.0",
+    "expo-server-sdk": "^3.3.0",
+    "lodash": "^4.17.5",
+    "strapi-utils": "3.0.0-beta.16.4"
   },
   "devDependencies": {
     "strapi-helper-plugin": "^3.0.0-beta.16.4"
@@ -31,18 +34,18 @@
   "author": {
     "name": "Augustus Costa",
     "email": "augustuscosta@gmail.com",
-    "url": "https://github.com/AugustusCosta/strapi-plugin-gmaps-api-services"
+    "url": "https://github.com/AugustusCosta/strapi-plugin-mobile-push-notification"
   },
   "maintainers": [
     {
       "name": "Augustus Costa",
       "email": "augustuscosta@gmail.com",
-      "url": "https://github.com/AugustusCosta/strapi-plugin-gmaps-api-services"
+      "url": "https://github.com/AugustusCosta/strapi-plugin-mobile-push-notification"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/AugustusCosta/strapi-plugin-gmaps-api-services.git"
+    "url": "git://github.com/AugustusCosta/strapi-plugin-mobile-push-notification.git"
   },
   "engines": {
     "node": ">=10.0.0",
