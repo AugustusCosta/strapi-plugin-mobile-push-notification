@@ -46,10 +46,9 @@
       "default": true
     },
     "users": {
-      "configurable": false,
       "collection": "user",
-      "via": "notifications",
       "dominant": true,
+      "via": "notifications",
       "plugin": "users-permissions"
     },
     "data": {
