@@ -13,19 +13,19 @@
   },
   "attributes": {
     "title": {
-      "configurable": false,
+      "configurable": true,
       "type": "string"
     },
     "subtitle": {
-      "configurable": false,
+      "configurable": true,
       "type": "string"
     },
     "body": {
-      "configurable": false,
+      "configurable": true,
       "type": "text"
     },
     "priority": {
-      "configurable": false,
+      "configurable": true,
       "required": true,
       "enum": [
         "default",
@@ -36,12 +36,12 @@
       "type": "enumeration"
     },
     "sendDate": {
-      "configurable": false,
+      "configurable": true,
       "required": true,
       "type": "date"
     },
     "pending": {
-      "configurable": false,
+      "configurable": true,
       "type": "boolean",
       "default": true
     },
@@ -53,7 +53,7 @@
     },
     "data": {
       "type": "json",
-      "configurable": false
+      "configurable": true
     }
   }
 }
