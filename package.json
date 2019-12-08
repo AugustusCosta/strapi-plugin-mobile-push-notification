@@ -1,9 +1,9 @@
 {
   "name": "strapi-plugin-mobile-push-notification",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Strapi plugin for mobile push notifications",
   "strapi": {
-    "name": "strapi-plugin-mobile-push-notification",
+    "name": "Mobile Push Notifications",
     "icon": "plug",
     "description": "Strapi plugin for mobile push notifications"
   },
